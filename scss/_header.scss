@@ -1,0 +1,109 @@
+.header{
+    width: 100%;
+    margin: 0em;
+    padding: 0em;
+    .logo-nav-container{
+        background-color: transparent;
+        position: absolute;
+        z-index: 10;
+       
+        .menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        justify-items: center;
+        font-size: .9em;
+        margin: 0em;
+        .logo__a{
+           
+            text-decoration-line: none;
+            & h2{
+                
+                font-weight: 600;
+                color:#ce0404;
+                font-size: 1.6em;
+                & span{
+                    color: #fff;
+                    font-weight: 500
+                }
+            }
+        }
+        .menu__ul{
+            
+           padding-left: 0em;
+            margin-top: 1.2em;
+        display: flex;
+        .menu__li{
+           list-style-type:none;
+           font-weight: 600;
+           color: red;
+
+    
+        .menu__a{
+            position: relative;
+            padding: 1.5em;
+            text-decoration-line: none;
+            display: block;
+            color:#a0a0a0;
+            letter-spacing: 0.1em;
+             
+            &:after{
+                content: "";
+                position: absolute;
+                background-color:#ce0404;
+                height: 3px;
+                width: 0;
+                left: 0;
+                bottom: -3px;
+                transition: 0.5s;
+            }
+            &:hover{
+                color: #fff;
+            }
+            &:hover:after{
+                    width: 100%;
+            }
+        
+        }
+        }
+       
+    }
+}
+    }
+    .perfill{
+    z-index: 1;
+    transform:translate(-50%, -50%) ;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: circle(39% at 50% 37%);
+       .img-perfil{
+        width: 12em;
+        clip-path: circle(38% at 50% 37%);
+       }    
+    }
+    .descripcion{
+        z-index:1;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        position: absolute;
+        color: #ce0404;
+        .carousel-descricion{
+            align-items: center;
+            justify-items: center;
+        }
+    }
+    .descripcion1{
+        z-index:1;
+        transform: translate(-50%,-50%);
+        top: 80%;
+        left: 50%;
+        position: absolute;
+        color: #fff;
+    }
+}
