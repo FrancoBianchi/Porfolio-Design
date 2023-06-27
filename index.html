@@ -20,8 +20,8 @@
         <script src="https://use.fontawesome.com/378c4e3554.js"></script>
          <!--FAVICON-->
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="imagenes/ico_A.ico">
+        <link rel="icon" type="image/png" sizes="16x16" href="">
         <link rel="manifest" href="/site.webmanifest">
         <link rel="icon" href="favicon/favicon.ico" type="image/ico">
         <title>Portfolio desing</title>
@@ -33,15 +33,15 @@
         <nav class="menu">
         <div class="logo">
             <a class="logo__a" href="index.html">
-                <h2 class="logo-titulo"><span>N</span>ombre</h2>
+                <h2 class="logo-titulo"><span>A</span>ron</h2>
             </a>
         </div>
        
           <ul class="menu__ul">
               <li class="menu__li"><a class="menu__a hover_especial" href="index.html">HOME</a></li>
-              <li class="menu__li"><a class="menu__a hover_especial" href="">ACERCA DE MI</a></li>
-              <li class="menu__li"><a class="menu__a hover_especial" href="" >HABILIDADES</a></li>
-              <li class="menu__li"><a class="menu__a contacto" href="" ><span>CONTACTO</span></a></li>
+              <li class="menu__li"><a class="menu__a hover_especial" href="#acercadeMi">ACERCA DE MI</a></li>
+              <li class="menu__li"><a class="menu__a hover_especial" href="#habilidades">HABILIDADES</a></li>
+              <li class="menu__li"><a class="menu__a contacto" href="#contacto" ><span>CONTACTO</span></a></li>
         </ul>
     
       </nav>
@@ -56,7 +56,7 @@
     <section class="descripcion">
         <div class="container">
             <div class="carousel-descripcion">
-                <h2>Aaron Jhonson</h2>
+                <h2>Aron Jhonson</h2>
             </div>
             
             
@@ -72,17 +72,17 @@
                 <img src="imagenes/2.jpg" class="d-block w-100" height="600" alt="slider1">
             </div>
             <div class="carousel-item">
-                <img src="imagenes/1.jpg" class="d-block w-100" height="600" alt="slider2">
+                <img src="imagenes/6.jpg" class="d-block w-100" height="600" alt="slider2">
             </div>
             <div class="carousel-item">
-                <img src="imagenes/2.jpg" class="d-block w-100" height="600"alt="slider3">
+                <img src="imagenes/8.jpg" class="d-block w-100" height="600"alt="slider3">
             </div>
             </div>
          </div>
       
       <!--ACERCA DE MI-->
       <div id="particles-js">
-      <section class="acerca-de-mi">
+      <section id="acercadeMi"class="acerca-de-mi">
         
     <div class="container acerca-de-mi">
         <div class="div-foto"><img class="div-foto-img" src="imagenes/man1.jpg" alt="foto-personal"></div>
@@ -98,20 +98,21 @@
             <div class="card">
                 <dic class="content">                    
                             <ul class="lista-datos">
-                                <li><i class="bi bi-person-circle"></i> Nombre : Aron Jhonson</li>
-                                <li><i class="bi bi-calendar2-event-fill"></i> Nacimiento: 18/02/93</li>
-                                <li><i class="bi bi-flag-fill"></i> Nacionalidad : Australiano</li>
-                                <li><i class="bi bi-briefcase-fill"></i> Carrera : Programador</li>
-                                <li><i class="bi bi-bank2"></i> Universidad : The University of Sydney</li>
-                                <li><i class="bi bi-geo-alt-fill"></i> Ubicación : Sydney  </li>
-                                <li><i class="bi bi-telephone-fill"></i> Celular : +54 9 1234567890</li>
-                                <li><i class="bi bi-envelope-fill"></i> Mail : AronJhonson2014@gmail.com</li>
+                                <li><i class="bi bi-person-circle"></i> Nombre <span>:</span> Aron Jhonson</li>
+                                <li><i class="bi bi-calendar2-event-fill"></i> Nacimiento <span>:</span> 18/02/93</li>
+                                <li><i class="bi bi-flag-fill"></i> Nacionalidad <span>:</span> Australiano</li>
+                                <li><i class="bi bi-globe"></i> Idiomas <span>:</span> Inglés, Italiano y Español</li>
+                                <li><i class="bi bi-briefcase-fill"></i> Carrera <span>:</span> Programador</li>
+                                <li><i class="bi bi-bank2"></i> Universidad <span>:</span> The University of Sydney</li>
+                                <li><i class="bi bi-geo-alt-fill"></i> Ubicación <span>:</span> Sydney  </li>
+                                <li><i class="bi bi-telephone-fill"></i> Celular <span>:</span> +54 9 1234567890</li>
+                                <li><i class="bi bi-envelope-fill"></i> Mail <span>:</span> AronJhonson2014@gmail.com</li>
                             </ul>
                         
                     
                 </div>
                 <div class="botonCV">
-                    <button type="button" class="btn btn-danger">Descargar CV</button>
+                    <a href="" download=""><button type="button" class="btn btn-danger">Descargar CV</button></a>
                 </div>
         </div> 
         </div>
@@ -120,45 +121,120 @@
         
 </section>
 </div>
-
-<section class="hola">
-    <div class="custom-shape-divider-top-1673309210">
+<!--MIS Servicios-->
+<section id="habilidades"class="section_habilidades">
+<div class="wave_habilidades">
+    <div class="custom-shape-divider-top-1673563425">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
         </svg>
     </div>
-    <!--MIS Servicios-->
-    <div class="holaa">
-        <div class="titulos">
-            <div><h3>What I Do</h3>
-            </div>
-            <div><h2>My Services</h2></div>
-        </div> 
-        <div>
-            <div>
-                <img src="" alt=""></img>
-                    <h3></h3>
-                        <p></p>
-            </div>
-            <div>
-                <img src="" alt=""></img>
-                    <h3></h3>
-                        <p></p>
-            </div>
-            <div>
-                <img src="" alt=""></img>
-                    <h3></h3>
-                        <p></p>
-            </div>
-        </div>
+    <div class="titulo_habilidades">
+        <h2>MIS HABILIDADESS</h2>
     </div>
-</section>
-    <!--CONTATAME BOTTON-->
-   </main>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>  
-   <!--JS PARA LAS PARTICULAS--> 
+ 
+<!--CUADROS LUMINOSOS-->
+<div class="cuadros_luminosos">
+    <div class="contenedor">
+        <div class="carta">
+          <div class="face face1">
+            <div class="content">
+                <i class="bi bi-microsoft"></i>            
+              <h3>Microsoft Office</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <ul>
+                <li>Excel (nivel)</li>
+                <li>Powerpoint</li>
+                <li>Word</li>
+            </ul>
+              <a target="_blank" href="" type="button">Certificación</a>
+            </div>
+          </div>
+       </div>
+       
+       <div class="carta">
+          <div class="face face1">
+            <div class="content">
+                <i class="bi bi-server"></i>
+                <h3>Data</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <ul>
+                <li>SQL (nivel)</li>
+                <li>ORACLE (nivel)</li>
+                <li>Ruby (nivel)</li>
+            </ul>
+                <a target="_blank" href=""  type="button">Proyect</a>
+                <a target="_blank" href=""  type="button">Certificación</a>
+            </div>
+          </div>
+       </div>
+       
+       
+       <div class="carta">
+          <div class="face face1">
+            <div class="content">
+                <i class="bi bi-file-code-fill"></i>
+               <h3>Programación</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <ul>
+                <li>html (nivel)</li>
+                <li>css/scss (nivel)</li>
+                <li>python (nivel)</li>
+                <li>javascript (nivel)</li>
+                
+              </ul>
+                <a target="_blank" href="" type="button">Proyect</a>
+                <a target="_blank" href="" type="button">Certificación</a>
+            </div>
+          </div>
+       </div>
+</div>
+</div>
 
-   
+</div>
+</section>
+<!--SECCION CONTACTO-->
+<section id="contacto" class="contactame">
+    <div class="custom-shape-divider-top-1673581594">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <form action="contact.php" method="post">
+        <label for="name">Name: </label>
+        <input type="text" name="name">
+      
+        <label for="email">Email: </label>
+        <input type="email" name="email">
+      
+        <label for="message">Message: </label>
+        <textarea name="message"></textarea>
+      
+        <button type="submit">Submit</button>
+      </form>
+      
+
+
+
+
+</section>
+    <!--SCRIPT BOTON-->
+   </main>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
+    <!--SCRIPT CUADROS LUMINOSOS-->
+   <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
+   <!--SCRIPT PARA LAS PARTICULAS--> 
    <script src="js/particles.min.js"></script>
    <script src="app.js"></script>
 </body>

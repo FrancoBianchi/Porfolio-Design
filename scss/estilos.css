@@ -24,8 +24,7 @@
   margin: 0em;
 }
 .header .logo-nav-container .menu .logo__a {
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
 }
 .header .logo-nav-container .menu .logo__a h2 {
   font-weight: 600;
@@ -49,8 +48,7 @@
 .header .logo-nav-container .menu .menu__ul .menu__li .menu__a {
   position: relative;
   padding: 1.5em;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
   display: block;
   color: #a0a0a0;
   letter-spacing: 0.1em;
@@ -145,7 +143,9 @@
           clip-path: circle(38% at 50% 37%);
 }
 .main #particles-js {
-  background-color: #0c032c;
+  background-image: url(/imagenes/deep_blue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 150vh;
   padding-top: 2em;
@@ -199,6 +199,10 @@
 .main #particles-js .acerca-de-mi .c-1_c-2_card .card .lista-datos .bi {
   color: red;
 }
+.main #particles-js .acerca-de-mi .c-1_c-2_card .card .lista-datos span {
+  color: red;
+  font-weight: 650;
+}
 .main #particles-js .acerca-de-mi .c-1_c-2_card .botonCV {
   grid-area: botonCV;
   margin: 0 auto;
@@ -209,32 +213,237 @@
 .main #particles-js .acerca-de-mi .c-1_c-2_card .botonCV .btn {
   width: 50%;
 }
-.main .hola {
-  background-color: #000;
+.main .section_habilidades {
+  background-image: url(/imagenes/arena_blanca.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
 }
-.main .hola .custom-shape-divider-top-1673309210 {
-  position: absolute;
+.main .section_habilidades .wave_habilidades .custom-shape-divider-top-1673563425 {
+  position: relative;
+  top: 0;
+  left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
 }
-.main .hola .custom-shape-divider-top-1673309210 svg {
+.main .section_habilidades .wave_habilidades .custom-shape-divider-top-1673563425 svg {
   position: relative;
   display: block;
-  width: calc(110% + 1.3px);
-  height: 161px;
+  width: calc(100% + 1.3px);
+  height: 84px;
 }
-.main .hola .custom-shape-divider-top-1673309210 .shape-fill {
-  fill: #0C032C;
+.main .section_habilidades .wave_habilidades .custom-shape-divider-top-1673563425 .shape-fill {
+  fill: #03010b;
 }
-.main .hola .titulos {
-  padding-top: 5em;
-  color: #fff;
-  background-color: #000;
+.main .section_habilidades .wave_habilidades .titulo_habilidades {
+  margin: 0 auto;
+  margin-top: 2em;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  transform: translateY(0);
+  border-radius: 2em;
+  background-color: #0C032C;
+  padding: 1em;
+  text-align: center;
+  border: rgba(165, 158, 158, 0.212) solid 1px;
+  border-radius: 15px;
+  box-shadow: -5px -6px 15px 0 rgba(255, 255, 255, 0.425), 5px 6px 8px 0 rgb(88, 88, 88);
+}
+.main .section_habilidades .wave_habilidades .titulo_habilidades h2 {
+  color: rgb(247, 247, 247);
+}
+.main .section_habilidades .cuadros_luminosos {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+}
+.main .section_habilidades .cuadros_luminosos .contenedor {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta {
+  position: relative;
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.4s;
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta:hover .face.face1 {
+  transform: translateY(0);
+  box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta .face.face1 .content {
+  opacity: 0.2;
+  transition: 0.5s;
+  text-align: center;
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta:hover .face.face1 .content {
+  opacity: 1;
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta .face.face1 .content i {
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta .face.face1 .content h3 {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta .face.face1 .content a {
+  transition: 0.5s;
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta .face.face2 {
+  position: relative;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta:hover .face.face2 {
+  transform: translateY(0);
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta .face.face2 .content p, .main .section_habilidades .cuadros_luminosos a {
+  font-size: 10pt;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta .face.face2 .content a {
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  outline: 1px dashed #333;
+  padding: 10px;
+  margin: 15px 0 0;
+  display: inline-block;
+}
+.main .section_habilidades .cuadros_luminosos .contenedor .carta .face.face2 .content a:hover {
+  background: #333;
+  color: whitesmoke;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.main .section_habilidades .cuadros_luminosos .custom-shape-divider-bottom-1673581083 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.main .section_habilidades .cuadros_luminosos .custom-shape-divider-bottom-1673581083 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 68px;
+}
+.main .section_habilidades .cuadros_luminosos .custom-shape-divider-bottom-1673581083 .shape-fill {
+  fill: #000000;
+}
+.main .contactame {
+  background-color: #0C032C;
+}
+.main .contactame .custom-shape-divider-top-1673581594 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.main .contactame .custom-shape-divider-top-1673581594 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 51px;
+}
+.main .contactame .custom-shape-divider-top-1673581594 .shape-fill {
+  fill: #000;
+}
+.main .contactame .containerr {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px 100px;
+}
+.main .contactame .containerr:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/imagenes/c.jpg) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(50px);
+}
+.main .contactame .containerr:after .contact-box {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, ifr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+}
+.main .contactame .containerr:after .contact-box .left {
+  height: 100%;
+  background: url(/imagenes/d.jpg) no-repeat center;
+  background-size: cover;
+}
+.main .contactame .containerr:after .contact-box .right {
+  padding: 25px 40px;
+}
+.main .contactame .containerr:after .contact-box .right h2 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.main .contactame .containerr:after .contact-box .right h2 h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: rgba(46, 204, 226, 0.4431372549);
 }
 
 .footer {
   background-color: #fff;
   z-index: 199;
   position: absolute;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
