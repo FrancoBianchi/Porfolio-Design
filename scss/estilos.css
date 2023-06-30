@@ -214,7 +214,7 @@
   width: 50%;
 }
 .main .section_habilidades {
-  background-image: url(/imagenes/arena_blanca.jpg);
+  background-image: url(imagenes/arena_blanca.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150vh;
@@ -401,7 +401,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: url(/imagenes/c.jpg) no-repeat center;
+  background: url(imagenes/c.jpg) no-repeat center;
   background-size: cover;
   z-index: -1;
   filter: blur(50px);
@@ -444,6 +444,4 @@
   background-color: #fff;
   z-index: 199;
   position: absolute;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
