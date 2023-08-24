@@ -143,7 +143,7 @@
           clip-path: circle(38% at 50% 37%);
 }
 .main #particles-js {
-  background-image: url(/imagenes/gradient_2.png);
+  background-image: url("/imagenes/gradient_2.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -224,7 +224,7 @@
   color: #ffffff;
 }
 .main .section_habilidades {
-  background-image: url(/imagenes/gradient_2.png);
+  background-image: url("/imagenes/gradient_2.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 150vh;
@@ -375,7 +375,7 @@
   fill: #000000;
 }
 .main .contactame {
-  background-image: url(/imagenes/gradient_2.png);
+  background-image: url("/imagenes/gradient_2.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 120vh;

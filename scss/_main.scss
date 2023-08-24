@@ -1,8 +1,6 @@
 .main{
  
     .carousel-inner{
-
-
         .carousel-item::before{
             content: "";
             display: block;
@@ -40,9 +38,10 @@
         }
       }
     }
+   
     
     #particles-js{
-     background-image: url(/imagenes/gradient_2.png);
+     background-image: url('/imagenes/gradient_2.png');
      background-repeat:no-repeat;
      background-size:cover ;
       width: 100%;
@@ -125,8 +124,9 @@
         }
         }          
 }
+    
   .section_habilidades{
-    background-image: url(/imagenes/gradient_2.png);
+    background-image: url('/imagenes/gradient_2.png');
     background-repeat:no-repeat;
     background-size:cover ;
     height: 150vh;
@@ -315,7 +315,7 @@
 
   }
 .contactame{
-  background-image: url(/imagenes/gradient_2.png);
+  background-image: url('/imagenes/gradient_2.png');
   background-repeat:no-repeat;
   background-size:cover ;
   height: 120vh;
@@ -346,8 +346,8 @@
 }
 
   .contenedor_contacto{
-   margin-top: 3.8em;
-   margin-bottom: 6em;
+    margin-top: 3.8em;
+     margin-bottom: 6em;
     border-radius:15px;
     box-shadow:
     -5px -6px 15px 0 rgba(255,255,255,0.425),
@@ -357,8 +357,8 @@
     display: inline-flex;
    
     .contacto_imagen{
-   padding: 3em;
-   align-self: center;
+      padding: 3em;
+      align-self: center;
      img{
      width: 18.5em;
      }
@@ -417,26 +417,15 @@
     }
       .h2_contactame{
         padding: 1em;
-       text-align: center;
-        h2{
-          color: rgb(255, 255, 255);
-          font-weight: 700;
-          
-        }
+        text-align: center;
+          h2{
+            color: rgb(255, 255, 255);
+            font-weight: 700;
+            }
+        } 
       }
-    
-    
-     
-       
-       
-      }
-     
-     
     }
   }
-  
-
-
 }
       
 
