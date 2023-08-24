@@ -42,7 +42,7 @@
     }
     
     #particles-js{
-     background-image: url(/imagenes/deep_blue.jpg);
+     background-image: url(/imagenes/gradient_2.png);
      background-repeat:no-repeat;
      background-size:cover ;
       width: 100%;
@@ -64,9 +64,9 @@
             align-items: center;
             .c-1{
               padding-top: 2em;
-              color: #fff;   
+              color: #ffffff;   
               & h5{
-                color: red;
+                color: rgb(87, 216, 194);
               }
             }
             .c-2{
@@ -88,15 +88,16 @@
               border-top: 1px solid rgba(255, 255, 255, 0.5);
               border-left: 1px solid rgba(255, 255, 255, 0.5);
               backdrop-filter: blur(5px); 
-              color: #fff; 
+              color: #ffffff; 
+              font-weight: 600;
               & .lista-datos   {
                 padding-top: .8em;
                 list-style-type: none;
                 & .bi{
-                  color: red;
+                  color: rgb(87, 216, 194);
                 }
                 & span{
-                  color: red;
+                  color: rgb(87, 216, 194);
                   font-weight: 650;
                 }
               }  
@@ -107,15 +108,25 @@
             align-items: center;
             text-align: center;
             margin-top: 6.5em;
+            
               .btn{
             width: 50%;
+            background-color:  rgb(87, 216, 194);
+            color: #000;
+            border: none;
+            font-weight: 550;
+            &:hover{
+              transition: 0.1s;
+              background-color:  rgb(102, 255, 229);
+              color:#ffffff;
+            }
             }        
           }
         }
         }          
 }
   .section_habilidades{
-    background-image: url(imagenes/arena_blanca.jpg);
+    background-image: url(/imagenes/gradient_2.png);
     background-repeat:no-repeat;
     background-size:cover ;
     height: 150vh;
@@ -139,7 +150,7 @@
     }
     
     .custom-shape-divider-top-1673563425 .shape-fill {
-        fill: #03010b;
+        fill: rgb(87, 216, 194);
     }
     .titulo_habilidades{
       margin: 0 auto;
@@ -161,7 +172,7 @@
             5px 6px 8px 0 rgba(88,88,88,2);
        
         & h2{
-          color:rgb(247, 247, 247) ;
+          color: rgb(255, 255, 255) ;
         }
         
     }
@@ -292,7 +303,7 @@
 
 .custom-shape-divider-bottom-1673581083 svg {
   position: relative;
-  display: block;
+ 
   width: calc(100% + 1.3px);
   height: 68px;
 }
@@ -304,7 +315,13 @@
 
   }
 .contactame{
-  background-color: #0C032C;
+  background-image: url(/imagenes/gradient_2.png);
+  background-repeat:no-repeat;
+  background-size:cover ;
+  height: 120vh;
+
+  
+  text-align: center;
   
   .custom-shape-divider-top-1673581594 {
     position: relative;
@@ -318,79 +335,110 @@
 
 .custom-shape-divider-top-1673581594 svg {
     position: relative;
-    display: block;
     width: calc(100% + 1.3px);
     height: 51px;
     
 }
 
 .custom-shape-divider-top-1673581594 .shape-fill {
-    fill: #000;
+    fill: rgb(87, 216, 194);
     
 }
-  
-  
 
-.containerr{
-  position:relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  padding: 20px 100px;
-}
-.containerr:after{
-  content: '';
-  position: absolute;
-  left: 0;
-  top:0;
-  width: 100%;
-  height: 100%;
-  background: url(imagenes/c.jpg) no-repeat center;
-  background-size: cover;
-  z-index: -1;
-  filter:blur(50px);
-  .contact-box{
-    max-width: 850px;
-    display: grid;
-    grid-template-columns: repeat(2, ifr);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #fff;
-      .left{
-        height: 100%;
-        background: url(/imagenes/d.jpg) no-repeat center;
-        background-size: cover;
-      }
-      .right{
-        padding: 25px 40px;
-          & h2{
-            position: relative;
-            padding-bottom: 10px;
-            margin-bottom: 10px;
-          & h2:after{
-            content: '';
-            position: absolute;
-            left: 50%;
-            bottom: 0;
-            transform: translateX(-50%);
-            height:4px;
-            width: 50px;
-            border-radius: 2px;
-            background-color: #2ecce271;
-          }
-          }
-      }
-  }
-}
-}
+  .contenedor_contacto{
+   margin-top: 3.8em;
+   margin-bottom: 6em;
+    border-radius:15px;
+    box-shadow:
+    -5px -6px 15px 0 rgba(255,255,255,0.425),
+    5px 6px 8px 0 rgba(88,88,88,2);
 
-  }
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+   
+    .contacto_imagen{
+   padding: 3em;
+   align-self: center;
+     img{
+     width: 18.5em;
+     }
+    }
+    .contenedor_form{
+      background-color: #0C032C;
+      border-top-right-radius: 15px;
+      border-end-end-radius: 15px;
+      text-align: left;
+     form{
+      padding: 3em;
+      display: block;
+      position: relative;
+   
+    label{
+      color: rgb(87, 216, 194);
+      padding: 0.3em;
+      text-align: left;
+      border-bottom: solid 1px  rgb(87, 216, 194) ;
+      width: 100%;
+      margin-bottom: 1em;
+    }
+    input{
+      width: 100%;
+      padding: 0.5em;
+      padding-left: 000.5em;
+      border: none;
+      border-radius: 1.5px;
+      margin-bottom: 0.5em;
       
- 
+      
+    }
+    textarea{
+      width: 100%;
+      padding: 0.7em;
+      padding-left: 000.5em;
+      height: 100%;
+      border: none;
+      border-radius: 1.5px;
+    }
+    button{
+      margin-top: 0.7em;
+      padding: 0.5em;
+      width: 100%;
+      color: #0C032C;
+      font-weight: 700;
+      background-color: rgb(87, 216, 194);
+      border-radius: 5px;
+    }
+    button:hover{
+        background-color: rgb(127, 247, 227);
+        color: #ffffff;
+        transition: 0.1s;
+      }
+      
+    }
+      .h2_contactame{
+        padding: 1em;
+       text-align: center;
+        h2{
+          color: rgb(255, 255, 255);
+          font-weight: 700;
+          
+        }
+      }
+    
+    
+     
+       
+       
+      }
+     
+     
+    }
+  }
+  
 
+
+}
+      
 
 
         

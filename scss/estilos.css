@@ -28,7 +28,7 @@
 }
 .header .logo-nav-container .menu .logo__a h2 {
   font-weight: 600;
-  color: #ce0404;
+  color: rgb(87, 216, 194);
   font-size: 1.6em;
 }
 .header .logo-nav-container .menu .logo__a h2 span {
@@ -43,7 +43,7 @@
 .header .logo-nav-container .menu .menu__ul .menu__li {
   list-style-type: none;
   font-weight: 600;
-  color: red;
+  color: rgb(87, 216, 194);
 }
 .header .logo-nav-container .menu .menu__ul .menu__li .menu__a {
   position: relative;
@@ -56,7 +56,7 @@
 .header .logo-nav-container .menu .menu__ul .menu__li .menu__a:after {
   content: "";
   position: absolute;
-  background-color: #ce0404;
+  background-color: rgb(87, 216, 194);
   height: 3px;
   width: 0;
   left: 0;
@@ -93,7 +93,7 @@
   top: 70%;
   left: 50%;
   position: absolute;
-  color: #ce0404;
+  color: rgb(87, 216, 194);
 }
 .header .descripcion .carousel-descricion {
   align-items: center;
@@ -143,7 +143,7 @@
           clip-path: circle(38% at 50% 37%);
 }
 .main #particles-js {
-  background-image: url(/imagenes/deep_blue.jpg);
+  background-image: url(/imagenes/gradient_2.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -166,10 +166,10 @@
 }
 .main #particles-js .acerca-de-mi .c-1_c-2_card .c-1 {
   padding-top: 2em;
-  color: #fff;
+  color: #ffffff;
 }
 .main #particles-js .acerca-de-mi .c-1_c-2_card .c-1 h5 {
-  color: red;
+  color: rgb(87, 216, 194);
 }
 .main #particles-js .acerca-de-mi .c-1_c-2_card .c-2 {
   margin-top: 3em;
@@ -190,17 +190,18 @@
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
-  color: #fff;
+  color: #ffffff;
+  font-weight: 600;
 }
 .main #particles-js .acerca-de-mi .c-1_c-2_card .card .lista-datos {
   padding-top: 0.8em;
   list-style-type: none;
 }
 .main #particles-js .acerca-de-mi .c-1_c-2_card .card .lista-datos .bi {
-  color: red;
+  color: rgb(87, 216, 194);
 }
 .main #particles-js .acerca-de-mi .c-1_c-2_card .card .lista-datos span {
-  color: red;
+  color: rgb(87, 216, 194);
   font-weight: 650;
 }
 .main #particles-js .acerca-de-mi .c-1_c-2_card .botonCV {
@@ -212,9 +213,18 @@
 }
 .main #particles-js .acerca-de-mi .c-1_c-2_card .botonCV .btn {
   width: 50%;
+  background-color: rgb(87, 216, 194);
+  color: #000;
+  border: none;
+  font-weight: 550;
+}
+.main #particles-js .acerca-de-mi .c-1_c-2_card .botonCV .btn:hover {
+  transition: 0.1s;
+  background-color: rgb(102, 255, 229);
+  color: #ffffff;
 }
 .main .section_habilidades {
-  background-image: url(imagenes/arena_blanca.jpg);
+  background-image: url(/imagenes/gradient_2.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150vh;
@@ -234,7 +244,7 @@
   height: 84px;
 }
 .main .section_habilidades .wave_habilidades .custom-shape-divider-top-1673563425 .shape-fill {
-  fill: #03010b;
+  fill: rgb(87, 216, 194);
 }
 .main .section_habilidades .wave_habilidades .titulo_habilidades {
   margin: 0 auto;
@@ -252,7 +262,7 @@
   box-shadow: -5px -6px 15px 0 rgba(255, 255, 255, 0.425), 5px 6px 8px 0 rgb(88, 88, 88);
 }
 .main .section_habilidades .wave_habilidades .titulo_habilidades h2 {
-  color: rgb(247, 247, 247);
+  color: rgb(255, 255, 255);
 }
 .main .section_habilidades .cuadros_luminosos {
   display: flex;
@@ -358,7 +368,6 @@
 }
 .main .section_habilidades .cuadros_luminosos .custom-shape-divider-bottom-1673581083 svg {
   position: relative;
-  display: block;
   width: calc(100% + 1.3px);
   height: 68px;
 }
@@ -366,7 +375,11 @@
   fill: #000000;
 }
 .main .contactame {
-  background-color: #0C032C;
+  background-image: url(/imagenes/gradient_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  text-align: center;
 }
 .main .contactame .custom-shape-divider-top-1673581594 {
   position: relative;
@@ -378,70 +391,89 @@
 }
 .main .contactame .custom-shape-divider-top-1673581594 svg {
   position: relative;
-  display: block;
   width: calc(100% + 1.3px);
   height: 51px;
 }
 .main .contactame .custom-shape-divider-top-1673581594 .shape-fill {
-  fill: #000;
+  fill: rgb(87, 216, 194);
 }
-.main .contactame .containerr {
+.main .contactame .contenedor_contacto {
+  margin-top: 3.8em;
+  margin-bottom: 6em;
+  border-radius: 15px;
+  box-shadow: -5px -6px 15px 0 rgba(255, 255, 255, 0.425), 5px 6px 8px 0 rgb(88, 88, 88);
+  background-color: rgb(255, 255, 255);
+  display: inline-flex;
+}
+.main .contactame .contenedor_contacto .contacto_imagen {
+  padding: 3em;
+  align-self: center;
+}
+.main .contactame .contenedor_contacto .contacto_imagen img {
+  width: 18.5em;
+}
+.main .contactame .contenedor_contacto .contenedor_form {
+  background-color: #0C032C;
+  border-top-right-radius: 15px;
+  border-end-end-radius: 15px;
+  text-align: left;
+}
+.main .contactame .contenedor_contacto .contenedor_form form {
+  padding: 3em;
+  display: block;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  padding: 20px 100px;
 }
-.main .contactame .containerr:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
+.main .contactame .contenedor_contacto .contenedor_form form label {
+  color: rgb(87, 216, 194);
+  padding: 0.3em;
+  text-align: left;
+  border-bottom: solid 1px rgb(87, 216, 194);
   width: 100%;
-  height: 100%;
-  background: url(imagenes/c.jpg) no-repeat center;
-  background-size: cover;
-  z-index: -1;
-  filter: blur(50px);
+  margin-bottom: 1em;
 }
-.main .contactame .containerr:after .contact-box {
-  max-width: 850px;
-  display: grid;
-  grid-template-columns: repeat(2, ifr);
-  justify-content: center;
-  align-items: center;
+.main .contactame .contenedor_contacto .contenedor_form form input {
+  width: 100%;
+  padding: 0.5em;
+  padding-left: 0.5em;
+  border: none;
+  border-radius: 1.5px;
+  margin-bottom: 0.5em;
+}
+.main .contactame .contenedor_contacto .contenedor_form form textarea {
+  width: 100%;
+  padding: 0.7em;
+  padding-left: 0.5em;
+  height: 100%;
+  border: none;
+  border-radius: 1.5px;
+}
+.main .contactame .contenedor_contacto .contenedor_form form button {
+  margin-top: 0.7em;
+  padding: 0.5em;
+  width: 100%;
+  color: #0C032C;
+  font-weight: 700;
+  background-color: rgb(87, 216, 194);
+  border-radius: 5px;
+}
+.main .contactame .contenedor_contacto .contenedor_form form button:hover {
+  background-color: rgb(127, 247, 227);
+  color: #ffffff;
+  transition: 0.1s;
+}
+.main .contactame .contenedor_contacto .contenedor_form .h2_contactame {
+  padding: 1em;
   text-align: center;
-  background-color: #fff;
 }
-.main .contactame .containerr:after .contact-box .left {
-  height: 100%;
-  background: url(/imagenes/d.jpg) no-repeat center;
-  background-size: cover;
-}
-.main .contactame .containerr:after .contact-box .right {
-  padding: 25px 40px;
-}
-.main .contactame .containerr:after .contact-box .right h2 {
-  position: relative;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-.main .contactame .containerr:after .contact-box .right h2 h2:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 50px;
-  border-radius: 2px;
-  background-color: rgba(46, 204, 226, 0.4431372549);
+.main .contactame .contenedor_contacto .contenedor_form .h2_contactame h2 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
 }
 
-.footer {
-  background-color: #fff;
+footer {
+  background-color: rgb(87, 216, 194);
+}
+footer .footer {
   z-index: 199;
   position: absolute;
 }/*# sourceMappingURL=estilos.css.map */

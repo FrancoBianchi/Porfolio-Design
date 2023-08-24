@@ -20,7 +20,7 @@
             & h2{
                 
                 font-weight: 600;
-                color:#ce0404;
+                color: rgb(87, 216, 194);
                 font-size: 1.6em;
                 & span{
                     color: #fff;
@@ -36,7 +36,7 @@
         .menu__li{
            list-style-type:none;
            font-weight: 600;
-           color: red;
+           color:  rgb(87, 216, 194);
 
     
         .menu__a{
@@ -50,7 +50,7 @@
             &:after{
                 content: "";
                 position: absolute;
-                background-color:#ce0404;
+                background-color: rgb(87, 216, 194);
                 height: 3px;
                 width: 0;
                 left: 0;
@@ -92,7 +92,7 @@
         top: 70%;
         left: 50%;
         position: absolute;
-        color: #ce0404;
+        color:  rgb(87, 216, 194);
         .carousel-descricion{
             align-items: center;
             justify-items: center;
