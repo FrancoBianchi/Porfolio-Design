@@ -1,10 +1,23 @@
 footer{
-    background-color: rgb(87, 216, 194);
-
-.footer{
-   
-    z-index: 199
-    ;
-    position: absolute;
+    padding: 3em;
+    background-color: rgba(0, 0, 0, 0.902);
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    
+    .div-footer{
+        color: #ffffff58;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        & h5{
+            padding-top: 0.8em;
+            font-size: 1em;
+            & span{
+                color: rgba(102, 255, 230, 0.484);
+        }
+        
+      
+    }
 }
 }

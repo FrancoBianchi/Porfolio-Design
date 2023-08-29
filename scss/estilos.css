@@ -251,7 +251,7 @@
   text-align: center;
   width: 30%;
   transform: translateY(0);
-  border-radius: 2em;
+  border-radius: 1em;
   background-color: #0C032C;
   padding: 1em;
   text-align: center;
@@ -261,6 +261,7 @@
 }
 .main .section_habilidades .wave_habilidades .titulo_habilidades h2 {
   color: rgb(255, 255, 255);
+  font-weight: 600;
 }
 .main .section_habilidades .cuadros_luminosos {
   display: flex;
@@ -375,7 +376,7 @@
 .main .contactame {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
   text-align: center;
 }
 .main .contactame .custom-shape-divider-top-1673581594 {
@@ -389,7 +390,7 @@
 .main .contactame .custom-shape-divider-top-1673581594 svg {
   position: relative;
   width: calc(100% + 1.3px);
-  height: 51px;
+  height: 3em;
 }
 .main .contactame .custom-shape-divider-top-1673581594 .shape-fill {
   fill: rgb(87, 216, 194);
@@ -399,15 +400,7 @@
   margin-bottom: 6em;
   border-radius: 15px;
   box-shadow: -5px -6px 15px 0 rgba(255, 255, 255, 0.425), 5px 6px 8px 0 rgb(88, 88, 88);
-  background-color: rgb(255, 255, 255);
   display: inline-flex;
-}
-.main .contactame .contenedor_contacto .contacto_imagen {
-  padding: 3em;
-  align-self: center;
-}
-.main .contactame .contenedor_contacto .contacto_imagen img {
-  width: 18.5em;
 }
 .main .contactame .contenedor_contacto .contenedor_form {
   background-color: #0C032C;
@@ -416,7 +409,7 @@
   text-align: left;
 }
 .main .contactame .contenedor_contacto .contenedor_form form {
-  padding: 3em;
+  padding: 1em;
   display: block;
   position: relative;
 }
@@ -435,6 +428,7 @@
   border: none;
   border-radius: 1.5px;
   margin-bottom: 0.5em;
+  border: none;
 }
 .main .contactame .contenedor_contacto .contenedor_form form textarea {
   width: 100%;
@@ -443,6 +437,7 @@
   height: 100%;
   border: none;
   border-radius: 1.5px;
+  border: none;
 }
 .main .contactame .contenedor_contacto .contenedor_form form button {
   margin-top: 0.7em;
@@ -452,6 +447,7 @@
   font-weight: 700;
   background-color: rgb(87, 216, 194);
   border-radius: 5px;
+  border: none;
 }
 .main .contactame .contenedor_contacto .contenedor_form form button:hover {
   background-color: rgb(127, 247, 227);
@@ -464,13 +460,29 @@
 }
 .main .contactame .contenedor_contacto .contenedor_form .h2_contactame h2 {
   color: rgb(255, 255, 255);
-  font-weight: 700;
+  font-weight: 800;
+}
+.main .contactame .contenedor_contacto .contenedor_form .h2_contactame span {
+  color: rgb(102, 255, 229);
 }
 
 footer {
-  background-color: rgb(87, 216, 194);
+  padding: 3em;
+  background-color: rgba(0, 0, 0, 0.902);
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
 }
-footer .footer {
-  z-index: 199;
-  position: absolute;
+footer .div-footer {
+  color: rgba(255, 255, 255, 0.3450980392);
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+footer .div-footer h5 {
+  padding-top: 0.8em;
+  font-size: 1em;
+}
+footer .div-footer h5 span {
+  color: rgba(102, 255, 230, 0.484);
 }/*# sourceMappingURL=estilos.css.map */
