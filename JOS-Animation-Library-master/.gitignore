@@ -1,0 +1,13 @@
+changelog.md
+dd.html
+test.js
+.vscode
+tmp_tk_rough_implements
+dd.js
+scripts
+# rollup
+rollup/export/*
+rollup/config/package.js
+rollup/config/package-lock.js 
+node_modules
+package-lock.json
